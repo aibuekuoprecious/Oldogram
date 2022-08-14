@@ -1,0 +1,81 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;}
+
+header { 
+    display: flex;
+    justify-content:space-between;
+    padding: 16px 16px;
+    border-bottom: solid;
+    border-color: #c6c6c6;}
+    
+.section{
+    display: flex;
+    padding-top: 11px}
+    
+.logo {
+    width: 127px;
+    height:33.02px;}
+    
+.avatar {
+    height:34px; 
+    width:34px;
+    border-radius:100%;}
+    
+.name,
+.location { 
+    font-family: source sans pro;
+    }
+/*nl means name and location*/
+.nl {
+    margin: auto auto 13px 7px;
+    line-height: 0px}
+    
+.name{
+    font-weight: bold;
+    font-size: 13px;}
+    
+.location,
+.caption {
+    font-weight: regular;}
+    
+.location {
+    font-size: 12px;}
+
+
+.caption {
+    font-size: 13px;}
+
+
+.post {
+    height: 375px;
+    width: 375px;
+    margin-bottom: 21px}
+    
+.icons {
+    display: flex;}
+    
+.heart,
+.comment,
+.dm{
+    height: 22.13px;
+    width: 23.3px;
+    padding-bottom: 11.87px}
+    
+.heart,
+.likes,
+.profile {
+    margin-left: 10px;}
+    
+.comment,
+.dm {
+    margin-left: 20px}
+    
+.likes {
+    margin-bottom: 12px;}
+    
+.more {
+    border-top-style: solid;
+    border-top-width: 25px;
+    border-top-color: #c6c6c6;}
